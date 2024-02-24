@@ -1,0 +1,131 @@
+name: dockercompose11142890223877486221
+services:
+  db:
+    build:
+      context: C:\WORKSPACE\PROJETOS_VSS\API\RestWithAspNET.API
+      dockerfile: db/Dockerfile
+    command:
+    - sqlServerd
+    - --default-authentication-plugin=sqlserver_native_password
+    environment:
+      Database: CursoUdemy
+      MSSQLSERVER01: GabrielRibeiro\MSSQLSERVER01
+      Password: ga0904
+      TZ: America/Sao_Paulo
+      User Id: desenvolvimento
+    image: rest-with-asp-net-api-db
+    networks:
+      udemy-network: null
+    ports:
+    - mode: ingress
+      target: 3306
+      published: "3308"
+      protocol: tcp
+    restart: always
+  rest-with-asp-net-api:
+    build:
+      context: C:\WORKSPACE\PROJETOS_VSS\API\RestWithAspNET.API
+      dockerfile: RestWithAspNET.API/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: RestWithAspNET.API
+      target: base
+    container_name: RestWithAspNET.API
+    depends_on:
+      db:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+      TZ: America/Sao_Paulo
+    image: rest-with-asp-net-api:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages  "/app/bin/Debug/net5.0/RestWithAspNET.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      udemy-network: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "44300"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\WORKSPACE\PROJETOS_VSS\API\RestWithAspNET.API\RestWithAspNET.API
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\WORKSPACE\PROJETOS_VSS\API\RestWithAspNET.API
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ogahr\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ogahr\.nuget\packages\
+      target: /.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ogahr\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ogahr\AppData\Roaming/ASP.NET/Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ogahr\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ogahr\AppData\Roaming/Microsoft/UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net6.0
+      target: /TokenService.Proxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net6.0
+      target: /HotReloadProxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\HotReload
+      target: /HotReloadAgent
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  udemy-network:
+    name: dockercompose11142890223877486221_udemy-network
+    driver: bridge

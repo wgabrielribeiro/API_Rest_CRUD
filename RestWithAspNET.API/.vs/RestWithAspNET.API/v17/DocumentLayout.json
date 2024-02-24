@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|c:\\workspace\\projetos_vss\\api\\restwithaspnet.api\\restwithaspnet.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|solutionrelative:restwithaspnet.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|c:\\workspace\\projetos_vss\\api\\restwithaspnet.api\\restwithaspnet.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|solutionrelative:restwithaspnet.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|c:\\workspace\\projetos_vss\\api\\restwithaspnet.api\\restwithaspnet.api\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|solutionrelative:restwithaspnet.api\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|c:\\workspace\\projetos_vss\\api\\restwithaspnet.api\\restwithaspnet.api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|solutionrelative:restwithaspnet.api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|c:\\workspace\\projetos_vss\\api\\restwithaspnet.api\\restwithaspnet.api\\repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|solutionrelative:restwithaspnet.api\\repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|c:\\workspace\\projetos_vss\\api\\restwithaspnet.api\\restwithaspnet.api\\business\\implementations\\personbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|solutionrelative:restwithaspnet.api\\business\\implementations\\personbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|c:\\workspace\\projetos_vss\\api\\restwithaspnet.api\\restwithaspnet.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67A89B3-D3BD-48F3-A67F-BBA356AC4B66}|RestWithAspNET.API\\RestWithAspNET.API.csproj|solutionrelative:restwithaspnet.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Dockerfile",
+              "RelativeDocumentMoniker": "RestWithAspNET.API\\Dockerfile",
+              "ToolTip": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Dockerfile",
+              "RelativeToolTip": "RestWithAspNET.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-12-04T00:51:04.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "RestWithAspNET.API\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "RestWithAspNET.API\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-04T00:40:48.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Genericrepository.cs",
+              "DocumentMoniker": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Repository\\Generic\\Genericrepository.cs",
+              "RelativeDocumentMoniker": "RestWithAspNET.API\\Repository\\Generic\\Genericrepository.cs",
+              "ToolTip": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Repository\\Generic\\Genericrepository.cs",
+              "RelativeToolTip": "RestWithAspNET.API\\Repository\\Generic\\Genericrepository.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwE4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-14T16:35:29.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonRepository.cs",
+              "DocumentMoniker": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Repository\\PersonRepository.cs",
+              "RelativeDocumentMoniker": "RestWithAspNET.API\\Repository\\PersonRepository.cs",
+              "ToolTip": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Repository\\PersonRepository.cs",
+              "RelativeToolTip": "RestWithAspNET.API\\Repository\\PersonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-14T16:35:18.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Startup.cs",
+              "RelativeDocumentMoniker": "RestWithAspNET.API\\Startup.cs",
+              "ToolTip": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Startup.cs",
+              "RelativeToolTip": "RestWithAspNET.API\\Startup.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-14T16:14:41.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonBusinessImplementation.cs",
+              "DocumentMoniker": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Business\\Implementations\\PersonBusinessImplementation.cs",
+              "RelativeDocumentMoniker": "RestWithAspNET.API\\Business\\Implementations\\PersonBusinessImplementation.cs",
+              "ToolTip": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Business\\Implementations\\PersonBusinessImplementation.cs",
+              "RelativeToolTip": "RestWithAspNET.API\\Business\\Implementations\\PersonBusinessImplementation.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwEYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-14T15:53:18.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "RestWithAspNET.API\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\WORKSPACE\\PROJETOS_VSS\\API\\RestWithAspNET.API\\RestWithAspNET.API\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "RestWithAspNET.API\\Controllers\\PersonController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwGAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-14T14:42:10.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

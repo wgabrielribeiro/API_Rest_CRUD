@@ -1,0 +1,46 @@
+name: dockercompose11142890223877486221
+services:
+  db:
+    build:
+      context: C:\WORKSPACE\PROJETOS_VSS\API\RestWithAspNET.API
+      dockerfile: db/Dockerfile
+    command:
+    - sqlServerd
+    - --default-authentication-plugin=sqlserver_native_password
+    environment:
+      Database: CursoUdemy
+      MSSQLSERVER01: GabrielRibeiro\MSSQLSERVER01
+      Password: ga0904
+      TZ: America/Sao_Paulo
+      User Id: desenvolvimento
+    image: rest-with-asp-net-api-db
+    networks:
+      udemy-network: null
+    ports:
+    - mode: ingress
+      target: 3306
+      published: "3308"
+      protocol: tcp
+    restart: always
+  rest-with-asp-net-api:
+    build:
+      context: C:\WORKSPACE\PROJETOS_VSS\API\RestWithAspNET.API
+      dockerfile: RestWithAspNET.API/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      TZ: America/Sao_Paulo
+    image: rest-with-asp-net-api
+    networks:
+      udemy-network: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "44300"
+      protocol: tcp
+networks:
+  udemy-network:
+    name: dockercompose11142890223877486221_udemy-network
+    driver: bridge
